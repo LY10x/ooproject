@@ -101,12 +101,16 @@ public class PetAdoptionSystem {
 
     // Търсене на животни по критерии
     public List<Animal> searchAnimals(Predicate<Animal> criteria) {
-        List<Animal> results = new ArrayList<>();
-        for (Shelter<? extends Animal> shelter : shelters) {
-            results.addAll(shelter.findAnimals(criteria));
+    List<Animal> results = new ArrayList<>();
+    for (Shelter<? extends Animal> shelter : shelters) {
+        for (Animal animal : shelter.getAnimals()) {
+            if (criteria.test(animal)) {
+                results.add(animal);
+            }
         }
-        return results;
     }
+    return results;
+}
 
     // Observer Pattern методи
     public void addObserver(Observer observer) {

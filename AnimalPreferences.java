@@ -1,6 +1,5 @@
 import java.io.Serializable;
 
-// AnimalPreferences.java - Какво търси човека
 public class AnimalPreferences implements Serializable {
     private String preferredSpecies; // Dog/Cat/Bird/Rabbit
     private Size preferredSize;

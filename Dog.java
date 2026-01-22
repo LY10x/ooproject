@@ -2,7 +2,6 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-// Dog.java
 public class Dog extends Animal implements Adoptable, Trainable {
     private boolean isHouseTrained; // Знае ли къде да си прави работата
     private int energyLevel; // 1-10, колко е луд

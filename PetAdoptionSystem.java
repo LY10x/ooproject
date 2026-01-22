@@ -4,7 +4,6 @@ import java.util.*;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-// PetAdoptionSystem.java - Главната система
 public class PetAdoptionSystem {
     private List<Shelter<? extends Animal>> shelters;
     private List<AdoptionRecord<?>> adoptionRecords;

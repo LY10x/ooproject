@@ -1,6 +1,5 @@
 import java.io.Serializable;
 
-// Adopter.java - Човека който иска да осинови
 public class Adopter implements Serializable {
     private static final long serialVersionUID = 1L;
     

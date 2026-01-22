@@ -1,6 +1,5 @@
 import java.io.*;
 
-// DataManager.java - Запазване/зареждане на данни
 public class DataManager {
 
     // Сериализация - запазваме обекта като файл

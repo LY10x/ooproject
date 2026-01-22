@@ -2,7 +2,7 @@
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
-// Rabbit.java
+
 public class Rabbit extends Animal implements Adoptable {
     private FurLength furLength; // Дълга/къса козина
     private String dietType; // Какво яде

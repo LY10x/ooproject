@@ -2,7 +2,6 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-// Bird.java
 public class Bird extends Animal implements Adoptable, Trainable {
     private boolean canTalk; // Може ли да бърбори
     private double wingSpan; // Колко широки са крилата (см)

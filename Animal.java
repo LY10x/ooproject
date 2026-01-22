@@ -1,7 +1,6 @@
 import java.time.LocalDate;
 import java.io.Serializable;
 
-// Animal.java
 public abstract class Animal implements Serializable {
     private String id;
     private String name;

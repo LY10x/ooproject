@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
 
-// AdoptionEligibilityChecker.java - Проверява дали може да осинови
 public class AdoptionEligibilityChecker {
 
     // Главна проверка - може ли да го вземе

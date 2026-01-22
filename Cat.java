@@ -2,7 +2,6 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-// Cat.java
 public class Cat extends Animal implements Adoptable {
     private boolean isIndoorOnly; // Само за вътре или може навън
     private boolean isLitterTrained; // Знае ли да си ходи на тоалетна

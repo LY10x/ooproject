@@ -1,7 +1,6 @@
 import java.time.LocalDate;
 import java.io.Serializable;
 
-// AdoptionRecord.java - Запис за осиновяване
 public class AdoptionRecord<T extends Animal> implements Serializable {
     private String recordId;
     private T animal;

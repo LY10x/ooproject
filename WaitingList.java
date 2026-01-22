@@ -3,7 +3,6 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.io.Serializable;
 
-// WaitingListEntry.java - Заявка в листа на чакане (non-public клас в същия файл)
 class WaitingListEntry implements Serializable {
     private static final long serialVersionUID = 1L;
     private Adopter adopter;

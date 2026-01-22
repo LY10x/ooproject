@@ -1,7 +1,6 @@
 import java.time.LocalDate;
 import java.util.*;
 
-// Main.java - Главното конзолно приложение
 public class Main {
     private static PetAdoptionSystem system = new PetAdoptionSystem();
     private static Scanner scanner = new Scanner(System.in);

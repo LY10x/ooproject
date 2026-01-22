@@ -5,7 +5,6 @@ import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.io.Serializable;
 
-// Shelter.java - Генеричен приют
 public class Shelter<T extends Animal> implements Serializable {
     private String shelterName;
     private String location;
